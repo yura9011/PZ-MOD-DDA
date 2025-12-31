@@ -1,0 +1,21 @@
+-- ============================================
+-- ChargedStrike Juggernaut Spawn Definition
+-- ============================================
+
+require "NPCs/ZombiesZoneDefinition"
+
+ZombiesZoneDefinition.Default = ZombiesZoneDefinition.Default or {}
+
+local function AddJuggernautSpawns()
+    print("[ChargedStrike] Adding Juggernaut zombie spawn...")
+    
+    -- 100% for testing - ALL zombies will be Juggernauts!
+    table.insert(ZombiesZoneDefinition.Default, { 
+        name = "Juggernaut", 
+        chance = 100 
+    })
+    
+    print("[ChargedStrike] Juggernaut spawn added with 100% chance (TEST MODE)")
+end
+
+Events.OnGameBoot.Add(AddJuggernautSpawns)

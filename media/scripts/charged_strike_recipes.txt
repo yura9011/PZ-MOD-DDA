@@ -1,0 +1,23 @@
+module ChargedStrike
+{
+    
+    craftRecipe Reforge Titan Weapon
+    {
+        inputs
+        {
+            item 1 [ChargedStrike.TitanWeapon_Broken],
+            item 1 [ChargedStrike.TitanCore],
+        }
+        outputs
+        {
+            item 1 ChargedStrike.TitanWeapon,
+        }
+        
+        time = 200,
+        category = Metalworking,
+        
+        OnCreate = Recipe.OnCreate.ReforgeTitanWeapon,
+        
+        Tooltip = Tooltip_Recipe_ReforgeTitanWeapon,
+    }
+}

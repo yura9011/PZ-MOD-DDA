@@ -1,0 +1,68 @@
+module ChargedStrike
+{
+
+    item Juggernaut
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Juggernaut Body,
+        ClothingItem = JuggernautXML,
+        BodyLocation = BodyCostume,
+        Icon = Zombie,
+        BloodLocation = Head,
+        ChanceToFall = 0,
+        Weight = 90,
+    }
+
+    item NeonGhoul
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Neon Ghoul Body,
+        ClothingItem = NeonGhoulXML,
+        BodyLocation = BodyCostume,
+        Icon = Zombie,
+        BloodLocation = Head,
+        ChanceToFall = 0,
+        Weight = 90,
+    }
+
+    item Stalker
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Stalker Body,
+        ClothingItem = StalkerXML, 
+        BodyLocation = BodyCostume,
+        Icon = Zombie,
+        BloodLocation = Head,
+        ChanceToFall = 0,
+        Weight = 90,
+    }
+
+    item Brute
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Brute Body,
+        ClothingItem = JuggernautXML,
+        BodyLocation = BodyCostume,
+        Icon = Zombie,
+        BloodLocation = Head,
+        ChanceToFall = 0,
+        Weight = 90,
+    }
+
+    item Abomination
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Abomination Body,
+        ClothingItem = AbominationXML,
+        BodyLocation = BodyCostume,
+        Icon = Zombie,
+        BloodLocation = Head,
+        ChanceToFall = 0,
+        Weight = 90,
+    }
+}

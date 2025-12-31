@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<files>
+		<path>media/clothing/clothingItems/JuggernautXML.xml</path>
+		<guid>a1b2c3d4-e5f6-7890-abcd-ef1234567890</guid>
+	</files>
+
+
+	<files>
+		<path>media/clothing/clothingItems/NeonGhoulXML.xml</path>
+		<guid>9a0bebd2-08a1-4d4f-937d-b13086b50cc7</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/StalkerXML.xml</path>
+		<guid>e82f44f2-735d-4603-8349-20076ffd826a</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/AbominationXML.xml</path>
+		<guid>6c8f9eac-fd02-4fdf-b5cc-08456d1ca3b5</guid>
+	</files>
+
+</fileGuidTable>

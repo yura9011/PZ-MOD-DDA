@@ -1,0 +1,135 @@
+module ChargedStrike
+{
+    
+    item TitanCore
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName = Titan Core,
+        Icon = ElectronicsScrap,
+        Weight = 2.0,
+        Tooltip = A pulsating core extracted from a Titan zombie. Used to reforge Titan weapons.,
+    }
+    
+    
+    item TitanWeapon
+    {
+        DisplayCategory = ToolWeapon,
+        ItemType = base:weapon,
+        DisplayName = Titan Weapon,
+        Icon = Machete,
+        Weight = 3.0,
+        AttachmentType = BigBlade,
+        BaseSpeed = 1.0,
+        BreakSound = MacheteBreak,
+        Categories = base:blade,
+        ConditionLowerChanceOneIn = 50,
+        ConditionMax = 25,
+        CritDmgMultiplier = 6.0,
+        CriticalChance = 30.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 20,
+        DoorHitSound = MacheteHit,
+        DropSound = MacheteDrop,
+        HitFloorSound = MacheteHit,
+        HitSound = MacheteHit,
+        IdleAnim = Idle_Weapon2,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 2.0,
+        MaxDamage = 4.0,
+        MaxHitcount = 4,
+        MaxRange = 1.5,
+        MinAngle = 0.7,
+        MinDamage = 2.5,
+        MinRange = 0.61,
+        MinimumSwingtime = 2.0,
+        PushBackMod = 0.6,
+        RunAnim = Run_Weapon2,
+        SplatBloodOnNoDeath = true,
+        SplatNumber = 4,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = MacheteSwing,
+        Swingtime = 2.0,
+        TreeDamage = 20,
+        TwoHandWeapon = false,
+        WeaponLength = 0.4,
+        WeaponSprite = Machete,
+        Tooltip = A powerful weapon extracted from a Titan zombie. Can be reforged with a Titan Core.,
+        Tags = base:sharpenable;base:cutplant,
+        OnBreak = OnBreak.TitanWeapon,
+    }
+    
+    item TitanWeapon_Broken
+    {
+        DisplayCategory = BrokenWeapon,
+        ItemType = base:weapon,
+        DisplayName = Broken Titan Weapon,
+        Icon = Machete,
+        Weight = 3.0,
+        AttachmentType = BigBlade,
+        BaseSpeed = 0.8,
+        BreakSound = MacheteBreak,
+        Categories = base:blade,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax = 5,
+        CritDmgMultiplier = 2.0,
+        CriticalChance = 10.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 5,
+        DoorHitSound = MacheteHit,
+        DropSound = MacheteDrop,
+        HitFloorSound = MacheteHit,
+        HitSound = MacheteHit,
+        IdleAnim = Idle_Weapon2,
+        KnockBackOnNoDeath = false,
+        KnockdownMod = 0.5,
+        MaxDamage = 1.0,
+        MaxHitcount = 1,
+        MaxRange = 1.2,
+        MinAngle = 0.7,
+        MinDamage = 0.5,
+        MinRange = 0.61,
+        MinimumSwingtime = 2.5,
+        PushBackMod = 0.3,
+        RunAnim = Run_Weapon2,
+        SplatBloodOnNoDeath = true,
+        SplatNumber = 1,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = MacheteSwing,
+        Swingtime = 2.5,
+        TreeDamage = 5,
+        TwoHandWeapon = false,
+        WeaponLength = 0.3,
+        WeaponSprite = Machete,
+        Tooltip = A broken Titan weapon. Can be reforged with a Titan Core to restore its power.,
+        Tags = base:alreadybroken;base:nomaintenancexp,
+    }
+    
+    
+    item StalkerEye
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName = Stalker Eye,
+        Icon = Eyepatch,
+        Weight = 0.3,
+        Tooltip = A glowing eye from a Stalker zombie. Radiates an unsettling energy.,
+    }
+    
+    
+    item BruteArm
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        DisplayName = Brute Arm,
+        Icon = BodyDamage_RLArm,
+        Weight = 4.0,
+        Tooltip = A massive severed arm from a Brute zombie. Unnaturally strong.,
+    }
+}
